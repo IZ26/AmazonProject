@@ -1,0 +1,74 @@
+/*------------*/
+/*-- Header --*/
+/*------------*/
+.navbar{
+    background: #232F3E;
+    width: 100%;
+}
+.navbar-brand img{
+    width: 50%;
+}
+.navbar-nav{
+    width: 100%;
+}
+.nav-item{
+    margin-left: 10%;
+}
+.nav-link img{
+    width: 90%;
+}
+.form-inline .form-control{
+    width: 70%;
+}
+.form-control{
+    border: none;
+    padding-left: 20px;
+    color: #24303E;
+    font-size: 13px;
+}
+.btn-search{
+    width: 25%;
+    background: #FCBC70;
+    border: none;
+}
+.btn-search:hover{
+    background: #FCBC70;
+}
+.btn-search img{
+    width: 60%;
+}
+.dropdown{
+    background: white;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+}
+.btn-dropdown{
+    background: none;
+    color: #24303E;
+    border: none;
+    border-right: 1px solid #24303E;
+    border-radius: 0;
+    padding-right: 20px;
+    font-size: 10px;
+    height: 100%;
+}
+.btn-dropdown:hover{
+    background: none;
+    color: #24303E;
+}
+.form-control::placeholder{
+    color: #24303E;
+    font-size: 12px;
+}
+
+/*------------*/
+/*-- Footer --*/
+/*------------*/
+
+.footer{
+    background: #232F3E;
+}
+.logo-footer{
+    margin: 10px;
+    width: 10%;
+}

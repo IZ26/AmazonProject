@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+/*---------------*/
+/*-- Home-Page --*/
+/*---------------*/
+.jumbotron{
+    background-color: #ffffff;
+}
+
+/*------------------*/
+/*-- Product-list --*/
+/*------------------*/
+
+/* Dropdown-catégorie */
+.dropdown-categorie{
+    background: #FCBC70;
+}
+
+/* Breadcrum */
+.breadcrumb{
+    background: nones;
+    margin-top: 20px;
+    padding-left: 2.5%;
+}
+.breadcrumb-item{
+    font-size: 12px;
+}
+.breadcrumb-item a{
+    color: #232F3E;
+}
+/* Card */
+
+.btn{
+    font-size: 12px;
+    background-color: #FCBC70;
+}
+.btn-primary{
+    color: #232F3E;
+    background-color: #FCBC70;
+    border: #FCBC70;
+}
+.btn-primary:hover{
+    background-color: #FCBC70;
+    border: #FCBC70;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 40%;
+    border-radius: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-title{
+    font-size: 13px;
+}
+.card-img-top{
+    width: 80%;
+}
+.card-body{
+    width: 100%;
+}
+.price{
+    font-size: 13px;
+}
+.shop{
+    width: 75%;
+}
+.btn-fav{
+    width: 20%;
+}
+.btn-shop{
+    margin-top: 15px;
+}
+
+/* Pagination */
+.pagination{
+    margin: 50px;
+    font-size: 13px;
+}
+.page-link{
+    border: none;
+    color: #232F3E;
+}
+
+/*------------------*/
+/*-- Product page --*/
+/*------------------*/
+
+
+.principal-pic {
+    width: 100%;
+    border: 3px solid #232F3E;
+    background-image: url(../img/oneplus.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+
+.thumb-pic	{
+    clear: both;
+    width: 80px;
+    height: 60px;
+    border: 3px solid #232F3E;
+    margin-top: 4px;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(../img/oneplus.jpg);
+}
+
+.img2 {
+    background-image: url(../img/oneplus2.jpg);
+}
+
+.img3 {
+    background-image: url(../img/oneplus3.jpg);
+}
+
+.img4 {
+    background-image: url(../img/oneplus4.jpg);
+}
+.btn-fav1{
+    width: 10%;
+}
+
+/*INFO CONTENT*/
+.product-info * {
+    margin-top: 10px;
+}
+
+.product-name {
+    margin-top: -5px;
+    font-size: 1.3rem;
+}
+
+.price {
+    color: #FCBC70;
+    font-size: 1.2rem
+}
+
+.fa-heart-o {
+    font-size: 23px;
+    color: #FC7070;
+}
+
+.cta {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #FCBC70;
+    display: inline-block;
+    border: none;
+}
+
+.cta:hover, .cta:focus, .cta:active, .cta::after, .cta:before {
+    background-color: #F2A952;
+    border: none;
+}
+
+.orange {
+    background-color: #FCBC70;
+}
+
+.red-fa {
+    color: #FC7070;
+    font-size: 2rem;
+}
